@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "maeatentojo:build:production",
+            "firebaseProject": "joannamae-991f2",
+            "firebaseHostingSite": "joannamae-991f2"
+          }
         }
       }
     }
